@@ -1,0 +1,37 @@
+.fondo{
+    background-color: white;
+}
+
+.miTexto{
+    font-size: 2em;
+    margin: auto;
+    color: black
+}
+footer{
+    font-size: 20px;
+}
+
+.logo{
+    width: 650px;
+}
+
+
+#Principal {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Para centrar horizontalmente */
+    color: rgb(213, 159, 230);
+    height: 100px; /* O el tamaño que necesites */
+}
+ #secciones{
+    border: 1px solid black;
+    width: 15vw;
+    margin: auto;
+    padding: 1em;
+    transition: 1s;
+ }
+
+ #secciones:hover{
+    background-color: grey;
+ }
